@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-header1 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.log-in {
+  background-color: rgb(58, 176, 245);
+  color: white;
+
+  border: none;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+.sign-in {
+  background-color: rgb(241, 238, 238);
+  color: rgb(58, 176, 245);
+
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.log-in,
+.sign-in {
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.profile-header2 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 2px;
+  text-size-adjust: 20px;
+}
+
+.profile-header2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 70%;
+  margin-right: 20px;
+}
+
+.profile-header2 h1 {
+  font-size: medium;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#button3 {
+  margin-left: 30px;
+
+  display: block; /* Make the buttons block-level elements */
+  margin-bottom: 70px; /* Add some space between the buttons */
+  margin-top: 20px;
+  padding: 8px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+.varity {
+  display: flex;
+  justify-content: space-between;
+}
+.varity span {
+  flex: 5; /* Allow each span to take up equal space */
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 1px;
+}
+
+.about {
+  font-size: small;
+  text-align: justify;
+  border-bottom: 1px solid #dbdbdb;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0.5.1 em;
+  line-height: 0.3;
+  margin-left: 120px;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.posts img {
+  width: 32%;
+  height: auto;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  margin-left: 2px;
+  margin-right: 2px;
+}
